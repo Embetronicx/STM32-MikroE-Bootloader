@@ -33,9 +33,11 @@ Count=0
 [OTHER_FILES]
 Count=0
 [SEARCH_PATH]
-Count=0
+Path0=C:\Mikroe\mikroC PRO for ARM\Packages\FAT32 Library\Uses\
+Count=1
 [HEADER_PATH]
-Count=0
+Path0=C:\Mikroe\mikroC PRO for ARM\Packages\FAT32 Library\Uses\
+Count=1
 [HEADERS]
 Count=0
 [PLDS]
@@ -43,16 +45,25 @@ Count=0
 [Useses]
 File0=UART
 File1=FLASH
-Count=2
+File2=FAT32_Defs_STM32_M3_M4_M7
+File3=FAT32_STM32_M3_M4_M7
+File4=FAT32_Driver_STM32_M3_M4_M7
+File5=SDIO
+File6=SPI
+File7=Conversions
+File8=C_String
+File9=Mmc
+Count=10
 [EXPANDED_NODES]
 0=Bootloader_STM32.mcpar
 Count=1
 [LIB_EXPANDED_NODES]
 0=mikroE Libraries
 1=System Libraries
-998=UART
+1077=Additional Libraries
+1078=FAT32 Library
 2116=mikroSDK Libraries
-Count=4
+Count=5
 [PROGRAMMER_OPTIONS]
 Value=SWD
 [PROGRAMMER_TYPE]
